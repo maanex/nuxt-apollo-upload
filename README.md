@@ -1,6 +1,6 @@
-![Nuxt Apollo](./docs/public/cover.jpg)
+# This is a temporary fork to be able to use apollo-upload-client in a nuxt3 project. Once the PR on @nuxtjs/apollo adding this feature gets merged this repo will get deleted.
 
-<h1 align="center">Nuxt Apollo</h1>
+<h2 align="center">Nuxt Apollo</h2>
 
 <p align="center">Effortlessly integrate GraphQL into your Nuxt 3 projects.</p>
 
