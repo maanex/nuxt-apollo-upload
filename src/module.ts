@@ -59,7 +59,7 @@ export default defineNuxtModule<NuxtApolloConfig<any>>({
 
     async function prepareClients () {
       // eslint-disable-next-line prefer-const
-      for (let [k, v] of Object.entries(options.clients)) {
+      for (let [k, v] of Object.entries(options.clients as any) as any) {
         if (typeof v === 'string') {
           const path = rootResolver.resolve(v)
           const resolvedConfig = existsSync(path) && await readConfigFile(path)

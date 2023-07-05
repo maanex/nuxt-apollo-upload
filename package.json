@@ -1,6 +1,6 @@
 {
-  "name": "@nuxtjs/apollo",
-  "version": "5.0.0-alpha.4",
+  "name": "@maanex/nuxt-apollo-upload",
+  "version": "5.0.0",
   "license": "MIT",
   "repository": "https://github.com/nuxt-modules/apollo-module",
   "homepage": "https://apollo.nuxtjs.org",
@@ -15,10 +15,7 @@
   ],
   "scripts": {
     "build": "nuxt-module-build",
-    "prepack": "pnpm build",
-    "dev": "nuxi dev playground",
-    "dev:build": "nuxi build playground",
-    "prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "prepack-": "npm run build",
     "release": "standard-version --prerelease alpha && git push --follow-tags && pnpm publish --tag next"
   },
   "dependencies": {
@@ -49,6 +46,5 @@
   },
   "resolutions": {
     "@nuxtjs/apollo": "link:."
-  },
-  "packageManager": "pnpm@7.9.0"
+  }
 }
